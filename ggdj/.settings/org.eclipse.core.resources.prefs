@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//WebRoot/admin_allpeople.jsp=UTF-8
+encoding//WebRoot/admin_index.jsp=UTF-8
+encoding//WebRoot/admin_mapeople.jsp=UTF-8
+encoding//WebRoot/ggdj_detect.jsp=UTF-8
+encoding//WebRoot/ggdj_regist.jsp=UTF-8
+encoding//src/com/iotek/dao/goodsDao.java=GBK
+encoding//src/com/iotek/dao/oQuantityDao.java=UTF-8
+encoding//src/com/iotek/dao/orderDao.java=GBK
+encoding//src/com/iotek/dao/supplierDao.java=UTF-8
+encoding//src/com/iotek/dao/tQuantityDao.java=UTF-8
+encoding//src/com/iotek/dao/trolleyDao.java=UTF-8
+encoding/<project>=UTF-8

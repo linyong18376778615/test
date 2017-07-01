@@ -1,0 +1,40 @@
+/*公共*/
+.login-banner-bg,.login-boxtitle{display: none;}
+.login-box {width: 100%;max-width:360px;height: 450px;position: absolute;margin-top:20px;margin-left:0px;background:#f8f8f8;right:2%;padding:10px 20px;}
+@media screen and (min-width:1025px){
+.login-banner,.res-banner{width:100%;height:470px; background:#fd7a72;}
+/*背景*/
+.login-banner-bg{display:block;float:left;} 
+}
+/*主题*/
+.login-form{background:#fff ;width: 100%;position: relative}
+.user-name,.user-pass,.user-email,.user-phone,.verification{position: relative;height: 42px;margin-bottom:5px;}
+.login-links{max-width:320px;margin:20px auto ;font-size:14px;}
+/*mima*/
+.am-fr {
+  float: right;
+}
+/* Float blocks*/
+.am-cf:before,
+.am-cf:after {
+  content: " ";
+  display: table;
+}
+.am-cf:after {
+  clear: both;
+}
+
+.am-icon-user:before {
+  content: "\f007";
+}
+.am-icon-lock:before {
+  content: "\f023";
+}
+
+/*合作账号*/
+.partner{width: 100%;max-width:320px;margin:20px auto ;font-size:14px;}
+.partner h3{text-align: center;}
+.am-btn-group{display: block;overflow: hidden;}
+.am-btn-group li{width:33.333% ;display: block;float: left;}
+.am-btn-group i{margin:0px auto ;display: block;width: 42px;height: 42px;border-radius: 42px;line-height:42px ;padding-left: 10px;border:1px solid #eee ;background:#fff ;color: #0e90d2;}
+.am-btn-group span{display: none;}

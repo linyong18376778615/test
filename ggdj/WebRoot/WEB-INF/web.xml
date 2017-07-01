@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fileUpload</servlet-name>
+    <servlet-class>com.iotek.servlet.fileUpload1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>supplierServlet</servlet-name>
+    <servlet-class>com.iotek.servlet.supplierServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>admin_supplierServlet</servlet-name>
+    <servlet-class>com.iotek.servlet.admin_supplierServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>supplierServlet</servlet-name>
+    <url-pattern>/supplierServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>admin_supplierServlet</servlet-name>
+    <url-pattern>/admin_supplierServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
